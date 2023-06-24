@@ -2,19 +2,21 @@ import AreaChartComponent from "./AreaChartComponent";
 
 const Section2 = () => {
   return (
-    <section className="grid md:grid-cols-3 md:grid-rows-2 my-6 gap-3">
-      <section className="flex md:flex-col gap-4 md:col-span-1 md:row-span-2">
-        <div className="flex flex-col justify-between col-span-1 rounded-lg shadow-lg overflow-hidden h-40 p-6 text-2xl">
-          <h4 className="font-extrabold">New Customers</h4>
+    <section className="">
+      <section className="flex gap-2 overflow-x-auto sm:overflow-x-hidden pointer-events-none">
+        <div className="border px-6 py-2">
+          <h4 className="font-extrabold text-lg flex-nowrap whitespace-nowrap">
+            New Customers
+          </h4>
           <div className="flex justify-between items-center">
-            <span>54</span>
-            <span className="text-lg bg-green-600 text-white px-2 py-1 rounded-lg">
+            <span className="text-lg">54</span>
+            <span className="sm:text-lg bg-green-600 text-white p-1 rounded-lg">
               +18.7%
             </span>
           </div>
         </div>
-        <div className="flex flex-col justify-between col-span-1 rounded-lg shadow-lg overflow-hidden h-40 p-6 text-2xl">
-          <h4 className="font-extrabold">Invoices Overduce</h4>
+        <div className="border px-6 py-2">
+          <h4 className="font-extrabold text-lg">Invoices Overduce</h4>
           <div className="flex justify-between items-center">
             <span>6</span>
             <span className="text-lg bg-green-600 text-white px-2 py-1 rounded-lg">

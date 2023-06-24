@@ -22,10 +22,10 @@ const Sidebar = () => {
   const { isOpen, setIsOpen } = useStateContext();
 
   return (
-    <div
+    <aside
       className={`${
         isOpen ? "w-52" : "w-20"
-      } hidden sm:block bg-purple-600 text-white mx-2 my-4 rounded-3xl fixed h-[95%] shadow-2xl`}
+      } hidden sm:block bg-purple-600 text-white sm:mx-2 my-4 rounded-3xl fixed h-[95%] shadow-2xl`}
     >
       <span
         onClick={() => setIsOpen(!isOpen)}
@@ -46,7 +46,7 @@ const Sidebar = () => {
           </li>
         ))}
       </ul>
-    </div>
+    </aside>
   );
 };
 

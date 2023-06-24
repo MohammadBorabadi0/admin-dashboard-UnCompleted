@@ -9,9 +9,9 @@ const LineChartComponent = ({
 }) => {
   return (
     <div className={`flex flex-col justify-between rounded-xl w-full h-full shadow-lg`}>
-      <section className="flex flex-col gap-8 p-4 md:p-8">
+      <section className="flex flex-col p-4 gap-5">
         <div className="flex justify-between items-center">
-          <h4 className="text-sm xl:text-xl font-extrabold text-purple-700 bg-purple-200 px-2 py-1 rounded-lg">{title}</h4>
+          <h4 className="xl:text-xl font-extrabold text-purple-700 bg-purple-200 px-2 py-1 rounded-lg">{title}</h4>
           <span
             className={`px-2 py-1 rounded-xl text-white ${
               change_24h > 0 ? "bg-green-600" : "bg-red-600"

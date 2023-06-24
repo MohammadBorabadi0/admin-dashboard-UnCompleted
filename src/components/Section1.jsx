@@ -11,7 +11,7 @@ const Section1 = ({ isOpen }) => {
       {lineChartDataOptions.map((chart, index) => (
         <div
           key={index}
-          className="shadow-sm h-72 rounded-md flex items-center justify-center"
+          className="shadow-sm h-72 rounded-md flex items-center justify-center mb-6 sm:mb-0"
         >
           <LineChartComponent
             title={chart.title}
